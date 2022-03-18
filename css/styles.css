@@ -1,0 +1,119 @@
+.first{
+    top: 0px;
+    margin: 0 !important;
+    z-index: 10;
+    width: 100%;
+    height: 960px;
+    background: #ccc;
+}
+.second{
+    top: 960px !important;
+    margin: 0 !important;
+    z-index: 10;
+    width: 100%;
+    height: 960px;
+    background: rgb(146, 141, 141);
+}
+.third{
+    top: 1920px !important;
+    margin: 0 !important;
+    z-index: 10;
+    width: 100%;
+    height: 1500px;
+    background: rgb(117, 112, 112);
+}
+
+.fourth{
+    top: 2880px !important;
+    margin: 0 !important;
+    z-index: 10;
+    width: 100%;
+    height: 800px;
+    background: rgb(90, 86, 86);
+}
+
+.fifth{
+    top: 3840px !important;
+    margin: 0 !important;
+    z-index: 10;
+    width: 100%;
+    height: 960px;
+    background: rgb(68, 65, 65);
+}
+
+.sixth{
+    top: 4800px !important;
+    margin: 0 !important;
+    z-index: 10;
+    width: 100%;
+    height: 150px;
+    background: rgb(34, 33, 33);
+}
+
+.container{
+    margin: 0; 
+    max-width: 100vw;
+    width: 100%;
+}
+
+nav ul {
+    display: inline-block;
+    margin: 0;
+    margin-top: 15px;
+    padding: 0;
+}
+
+nav li{
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+h6{
+    padding: 0 8px;
+}
+
+.icon{
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+}
+
+.contact{
+    height: 20px;
+    width: 20px;
+    padding: 0 10px;
+}
+
+.prgh{
+    padding-left: 150px;
+    padding-top: 200px;
+}
+
+.beantobar{
+    padding-top: 50px;
+    padding-left: 50px;
+    height: 90%;
+    width: 80%;
+}
+
+.beantobars{
+    height: 70%;
+    width: 90%;
+}
+
+.cacao{
+    padding-left: 50px;
+    padding-top: 100px;
+    width: 80%;
+    height: 90%;
+}
+
+.prr{
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.marg{
+    padding-top: 100px;
+}

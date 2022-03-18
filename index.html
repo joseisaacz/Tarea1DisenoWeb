@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Tarea 1</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/
+ css?family=Source+Sans+Pro" rel="stylesheet">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="css/normalize.css" rel="stylesheet" type="text/css" />
+  <link href="css/skeleton.css" rel="stylesheet" type="text/css" />
+  <link href="css/styles.css" rel="stylesheet" type="text/css" />
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<script src="./script/script.js"></script>
+
+<body class="container">
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <div class="row">
+    <div class="one column logo"> <img class="icon" src="./images/chocolatelogoversion1.svg" alt="logo" /> </div>
+    <nav class="six columns">
+      <ul>
+        <li>
+          <h6 onclick="scrollToSection('Detalles')">Descripcion</h6>
+        </li>
+        <li>
+          <h6 onclick="scrollToSection('Historia')">Historia</h6>
+        </li>
+        <li>
+          <h6 onclick="scrollToSection('Proceso')">Proceso</h6>
+        </li>
+        <li>
+          <h6 onclick="scrollToSection('Marca')">Marca</h6>
+        </li>
+        <li>
+          <h6 onclick="scrollToSection('Galeria')">Galeria</h6>
+        </li>
+        <li>
+          <h6 onclick="scrollToSection('Contacto')">Contacto</h6>
+        </li>
+      </ul>
+    </nav>
+    <div class="two columns">&nbsp;</div>
+    <nav class="three columns">
+      <ul>
+        <li><img onclick="scrollToSection('Contacto')" class="contact" src="./images/icons8-instagram.svg"
+            alt="instagram"></li>
+        <li><img onclick="scrollToSection('Contacto')" class="contact" src="./images/llamada-telefonica-vintage.png"
+            alt="contacto"></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="row first" id="Detalles">
+
+    <div class="six columns prgh">
+      <h3>Descripcion</h3>
+      <p>El chocolate es un producto que es relativamente común en la actualidad y está tan normalizado
+        en la sociedad, que no nos detenemos a considerar todo el proceso productivo que lleva por detrás. Este mismo
+        proviene de la actividad agricola del cacao, que sin duda se encuentra descuidado por entidades gubernamentales,
+        pero que ha encontrado lugar con entidades de carácter privado como por ejemplo Catie que fomenta el desarrollo
+        e investigacion
+        en el ambiente productivo del cacao. Por esto ha surgido un movimiento donde se desea resaltar el valor de todo
+        el proceso
+        productivo del cacao en donde se pasa de la mazorca a el producto final, el chocolate, donde el concepto bean to
+        bar, es la idea
+        central de la producción, y se desea resaltar los sabores que el cacao posee naturalmente.</p>
+    </div>
+    <div class="six columns">
+      <img class="beantobar" src="./images/tetiana-bykovets-7LKpstdOad0-unsplash.jpg" alt="bean-to-bar">
+    </div>
+
+  </div>
+  <div class="row second" id="Historia">
+
+    <div class="four columns">
+      <img class="cacao" src="./images/larry-garcia-pezo-5g_ZqW2oOlI-unsplash.jpg" alt="cacao">
+    </div>
+    <div class="four columns prr">
+      <h3>Historia</h3>
+      <p>El chocolate tiene su origen en México, donde el dios Quetzalcoatl regaló,
+        según cuenta la leyenda, el árbol de cacao a los hombres, que años después
+        se bautizaría con el nombre científico Theobroma Cacao, que significa en
+        griego “alimento de los dioses”. El cacao fue alimento de gran importancia
+        en la sociedad azteca y también fue utilizado como moneda de cambio. Lo tomaban
+        líquido y mezclado con especias. El resultado era una bebida muy energética, oscura, espesa y
+        espumosa a la que llamaban "tchocolatl", nombre que poco difiere de nuestro "chocolate".
+        Cuenta la historia que cuando Hernán Cortés desembarcó en la costa de México en 1519, los aztecas,
+        liderados por el emperador Moctezuma II, creyeron que era la reencarnación del dios Quetzacoatl y
+        le agasajaron ofreciéndole "tchocolatl".
+        Hernán Cortés descubre así el chocolate y a partir de 1520 religiosos que viajaban con él introducen esta
+        bebida,
+        ahora ya endulzada y caliente, en España. El chocolate sedujo a la infanta española Ana de Austria quien al
+        casarse en 1615
+        con el rey de Francia, Luis XIII, llevó a la corte
+        francesa su dulce costumbre, arraigando así el chocolate con fuerza en las cortes española y francesa, y
+        extendiéndose
+        así por el viejo continente.</p>
+    </div>
+    <div class="four columns">
+      <img class="cacao" src="./images/tetiana-bykovets-8UuAOqcquZU-unsplash.jpg" alt="cacao">
+    </div>
+
+  </div>
+  <div class="row third" id="Proceso">
+    <div class="six columns">
+      <div class="row"><img class="beantobar" src="./images/60dee05df3909.jpeg" alt="cacao tree"></div>
+      <div class="row"><img class="beantobar" src="./images/cacao-beans-1-e1586654896672.jpg" alt="cacao tree"></div>
+      <div class="row"><img class="beantobar" src="./images/beantobar-port.jpg" alt="cacao tree"></div>
+    </div>
+    <div class="six columns prr">
+      <h3>Proceso</h3>
+      <p>Para definir lo que es hoy en dia la filosofía "bean to bar"
+        hay que decir que el concepto ha evolucionado desde su origen en EEUU.
+        En palabras de Maria Fernanda di Giacobbe: "Surge como una respuesta a la necesidad de recuperar los orígenes y
+        los sabores reales del cacao,
+        y regresar a estos procesos únicos en el que ningún producto es igual a otro y donde esta característica tiene
+        un valor incalculable"
+        Con el boom de este movimiento, el mismo se fue desvirtuando llegando hasta hoy cuando todos los fabricantes
+        ponen en sus leyendas "del haba a la tableta"
+        o "bean to bar" y es lógico puesto que el cacao proviene del haba de cacao y termina en tableta por lo general.
+        Ya no nos vale por tanto este nombre que usan tanto los grandes de la industria como los artesanos.
+        En origen todo es y era del haba a la tableta.
+      </p>
+
+      <strong>Llamamos "Bean to Bar" al proceso que se rige por los siguientes parámetros:</strong>
+
+      <ul>
+        <li>
+          1. Selección del cacao en origen:
+          <ul>
+
+            <li>- Eligiendo cacaos de calidad "fino de aroma" y genética cercana a los criollos y trinitarios antiguos
+            </li>
+
+            <li>- Cultivados de forma respetuosa con el medio ambiente, sin químicos</li>
+
+            <li>- Manteniendo una relación lo más directa y amigable posible con el agricultor según la filosofía
+              "Direct
+              Cacao"</li>
+
+            <li>- Controlando los procesos de postcosecha (especialmente la fermentación y secado)</li>
+
+            <li>- Pagando un precio que permita a todas la partes del proceso (agricultor y expertos en cacao) tener una
+              vida
+              digna.</li>
+          </ul>
+        </li>
+
+        <li>
+          2. Procesado en obrador:
+          <ul>
+            <li>- Trabajo en pequeñas tongadas o "batches"</li>
+
+            <li>- Trillaje eliminando los granos defectuosos e impurezas</li>
+
+            <li>- Tostado cuidadoso ajustado en tiempo a cada tipo de grano</li>
+
+            <li>- Descascarillado y fragmentación en nibs</li>
+
+            <li>- Molido en pequeñas cantidades</li>
+
+            <li>- Conchado más o menos largo según el cacao</li>
+
+            <li>- Templado y moldeado</li>
+          </ul>
+        </li>
+      </ul>
+
+      <strong>Qué no es "bean to bar":</strong>
+      <p>
+        - Cuando se compran los ingredientes disociados del cacao y se unen en la conchadora para luego moldear.
+      </p>
+      <p>
+        - Cuando se compra cobertura y se atempera y moldea.
+      </p>
+      <p>
+        - Cuando se hace todo el proceso pero con cacaos de mala calidad y a escala industrial.
+      </p>
+      <p>
+        - Cuando solo se cuida el empaque y no el contenido.
+      </p>
+
+      <p>
+        De hecho, casi todos los creadores de chocolates "bean to bar" tienen otra línea de producto que no puede
+        llamarse
+        así pero que complementa su trabajo con buena calidad y recetas interesantes partiendo de coberturas
+        preelaboradas
+        con las que se crean "chocolates de autor". Simplemente es otro producto, no es "bean to bar".
+
+        La polémica sobre esto está servida hace años al descubrise que conocidos creadores moldeaban tabletas que
+        vendían
+        con la leyenda "bean to bar".
+      </p>
+    </div>
+  </div>
+  <div class="row fourth" id="Marca">
+    <div class="six columns">
+      <img class="beantobar" src="./images/marca/chocolatelogoversion1(LETTERS).svg" alt="logo">
+    </div>
+    <div class="six columns">
+      <img class="beantobar" src="./images/marca/chocolatelogoversiongrid.svg" alt="logo">
+    </div>
+  </div>
+  <div class="row fifth" id="Galeria">
+    <div class="two columns">
+      <h2 style="color: azure;">Galeria</h2>
+    </div>
+    <div class="ten columns marg">
+      <div class="row">
+        <div class="six columns"><img class="beantobars" src="./images/60dee05df3909.jpeg" alt=""></div>
+        <div class="six columns"><img class="beantobars" src="./images/beantobar-port.jpg" alt=""></div>
+      </div>
+      <div class="row">
+        <div class="six columns"><img class="beantobars" src="./images/cacao.jpg" alt=""></div>
+        <div class="six columns"><img class="beantobars" src="./images/cacao-chocolate-1-1000x500.jpg" alt=""></div>
+      </div>
+      <div class="row">
+        <div class="six columns"></div>
+        <div class="six columns"></div>
+      </div>
+    </div>
+  </div>
+  <div class="row sixth" id="Contacto">
+    <div class="six columns">
+      <div class="row">
+        <div style="display: inline-block;"><img style="color: aliceblue; padding-left: 10px; padding-top: 30px;" src="./images/icons8-instagram.svg" alt=""></div>
+        <div style="display: inline-block;">
+          <h3 style="color: aliceblue;">@tafa_chocolate</h3>
+        </div>
+      </div>
+    </div>
+    <div class="six columns">
+      <div class="row">
+        <div style="display: inline-block;"><img style="color: aliceblue; padding-left: 10px; padding-top: 30px; height: 50px; width: 50px;" src="./images/llamada-telefonica-vintage.png" alt=""></div>
+        <div style="display: inline-block;">
+          <h3 style="color: aliceblue;">8080-8080</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+
+</html>
